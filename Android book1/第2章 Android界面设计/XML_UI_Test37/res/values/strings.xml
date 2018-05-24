@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">第一个TextView文件</string>
+    <string name="app_name">xml控制文件UI界面</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">开始游戏</string>
+
+</resources>

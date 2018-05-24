@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cutomanimation">
+        <item> 补间动画</item>
+        <item>android动画的演示</item>
+        <item>android补间动画</item>
+        <item>义补间动画</item>
+        <item>自动义补间动画</item>
+    </string-array>
+</resources>

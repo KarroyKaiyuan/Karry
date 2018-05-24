@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aabbcc" >
+
+    <LinearLayout
+        android:id="@+id/tabFood"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#aaaaaa" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+      </LinearLayout>
+        <LinearLayout
+            android:id="@+id/tabCloths"
+            android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+            android:background="#aabbbb">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tabOutside"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+            android:background="#aacccc" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            />
+
+        </LinearLayout>
+
+   
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:height="50px"
+        android:text="@string/hello_world" />
+
+<TextView 
+    android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="带图片的TextView"
+        android:layout_alignLeft="@+id/textView3"
+        android:drawableTop="@drawable/ic_launcher"  />
+
+
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="多行文本：我们家三小只长得真帅，希望以后多一些团体活动。"
+        android:textColor="#09F"
+        android:textSize="20px"
+        android:width="300px" />
+
+<TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:singleLine="true"
+        android:textColor="#f00"
+        android:textSize="20px"
+        android:width="300px"
+        android:text="单行文本：我们家三小只长得真帅，希望以后多一些团体活动。" />
+
+</RelativeLayout>

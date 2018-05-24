@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test105</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ys">你的爱好：</string>
+	<string name="lq">篮球</string>
+	<string name="zq">足球</string>
+	<string name="pq">排球</string>
+	
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#aabbcc">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="215dp"
+        android:layout_height="310dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/a1" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textOff="@string/on"
+        android:textOn="@string/off" />
+
+</LinearLayout>
